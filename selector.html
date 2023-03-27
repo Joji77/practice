@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+       .redButton {
+        background-color: red;
+        border: 0;
+       }
+
+       .greenButton {
+        background-color: green;
+        border: 0;
+       }
+
+       .redButton, .greenButton {
+        color: white;
+       }
+
+       .bigButton {
+        width: 100px;
+        height: 70px;
+       }
+
+       .smallButton {
+        font-size: 8px;
+       }
+
+       a[target] {
+        color: red;
+       }
+
+       input[type=submit] {
+        color: white;
+       }
+
+       a[href="https://novatori.ge"] {
+        color: green;
+       }
+
+       a, input {
+        font-size: 20px;
+       }
+
+       div span {
+        color: blue;
+       }
+
+       div > span {
+        font-weight: bold;
+       }
+
+       p ~ span {
+        color: red;
+       }
+       
+       p + span {
+        font-weight: bold;
+       }
+    </style>
+</head>
+<body>
+
+    <span>This is not red.</span>
+    <p>Here is a paragraph</p>
+    <span>ერთი ჩამატებული სპანი :დ</span>
+    <code>Here is some code</code>
+    <span>And here is a red span!</span>
+    <span>And this is a red span!</span>
+    <code>More code..</code>
+    <div>How are you?</div>
+    <p>Whatever, it may be, keep smiling.</p>
+    <h1>Dream big</h1>
+    <span>And yet again this is red span!</span>
+
+    <div>
+        მე ვარ div ელემენტის უშუალო <span>შვილი</span>
+        <p>
+            მე ვარ div ელემენტის შთამომავალი <span>შვილიშვილი</span>
+        </p>
+    </div>    
+    <h1>Hello my friends</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, consequuntur quisquam nemo libero voluptas exercitationem minus, laboriosam natus fugiat cumque minima velit ipsam sapiente pariatur omnis, ipsa sunt. Nostrum, atque!</p>
+    <div>
+        Hi there
+    </div>
+
+    <input type="submit" class="greenButton" value="გაგზავნა">
+    <input type="submit" class="greenButton" value="რეგისტრაცია">
+    <input type="button" class="redButton smallButton" value="გაუქმება">
+    <input type="button" class="greenButton bigButton" value="ყიდვა">
+    <input type="submit" class="redButton" value="გამოსვლა">
+
+    <div>
+        <a href="hhtps://facebook.com" target="_blank">Facebook</a>
+        <a href="hhtps://google.com">Google</a>
+        <a href="hhtps://apple.com">Apple</a>
+        <a href="https://novatori.ge">Novatori</a>
+    </div>
+
+   
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        div, span {
+            background-color: red;
+            border: 3px solid black;
+           font-size: 35px;
+           text-align: center;
+           
+        }
+
+        
+
+        .flexContainer {
+            all: unset;
+            display: flex;
+           align-items: flex-start;
+        }
+
+        .flexContainer > * {
+            flex-basis: 90px;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="flexContainer">
+        <div style="order: 1;">1</div>
+        <div>2</div>
+        <span>3</span>
+        <span style="order: -1;">4</span>
+        <span style="order: 2;">5</span>
+        <div>6</div>
+    </div>
+    
+</body>
+</html>
